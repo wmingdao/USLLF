@@ -5,13 +5,13 @@ This dataset is designed to describe the execution process of human actions incl
 
 ## How to Construct this Dataset
 
-### global description
+### Global Description
 **Template/Prompt:** It is a request to describe the human action "[action]" from various body parts' views: head, hand, arm, hip, leg, and foot. Each part's description is no more than 15 words.
 
-### part description
+### Part Description
 **Template/Prompt:** It is a request to describe how the human action “[action]” is performed from a global view. Note that this description is no more than 90 words.
 
-### generating action descriptions
+### Generating Action Descriptions
 The Templates/Prompts are fed to **[ChatGPT 4.0](https://chat.openai.com/)** as a request to generate the action descriptions by replacing the keywords "[action]" with action categories. To increase sample diversity, we send the request for each category 10 times. 
 
 
